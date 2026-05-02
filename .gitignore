@@ -1,1 +1,17 @@
-./venv 
+# Python virtual environments
+venv/
+venv311/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code / IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
