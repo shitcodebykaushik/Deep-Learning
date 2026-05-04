@@ -13,4 +13,5 @@ z = x+y # this is error
 - GPU is bad at loading small data so always load big data 
 - Clear gpu memeory when needed 
 
+# Billions of parameters 
 
