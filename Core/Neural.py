@@ -10,7 +10,7 @@ B = torch.tensor ([[1,2],
                    [3,4],
                    [5,6]])
 
-# Output (2*2)
+# Output (2*2) 
 C = torch.matmul(A, B)
 print("Input A:\n", A)
 print("Weights B:\n", B)

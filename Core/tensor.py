@@ -54,3 +54,7 @@ print ("\n")
 # print(i+y3) # this will throw an error because y3 is on CPU and i is on GPU, we need to move y3 to GPU as well
 print(i + y3.to("cuda"))  # Move y3 to GPU and then add them together  
 
+# Tensors can be directly created on the GPU    
+data = [[1,2],[3,4]]
+tensor_from_data = torch.tensor(data)
+print("Tensor created from data:\n", tensor_from_data)
