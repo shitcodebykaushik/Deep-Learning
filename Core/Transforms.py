@@ -1,0 +1,2 @@
+# Trnasforms are use to perform  some manipulation of the data and make it suitable for the training 
+# TorchVision dataset have the two parameters - transform to modify the features and trarget_trandform to modify the lables - that accepts callables coontaining the transformation logic .
