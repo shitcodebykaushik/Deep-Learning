@@ -24,3 +24,4 @@ for image,lable in DataLoader:
     print(image.shape)
     print(lable.shape)
     break
+ 
