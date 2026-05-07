@@ -1,4 +1,6 @@
 # GELU applies the Gaussian Error Linear Unit activation function to the input data. The GELU function is defined as: f(x) = 0.5 * x * (1 + tanh(sqrt(2 / pi) * (x + 0.044715 * x^3))). It is a smooth, non-linear activation function that combines the properties of both ReLU and sigmoid functions. GELU is often used in transformer models and has been shown to perform well in various natural language processing tasks. When you pass a tensor through a GELU layer, it will apply the GELU function element-wise to the input tensor, allowing the model to learn complex patterns in the data while maintaining computational efficiency.
+# The main purpose of the GELU is decided wheather to pass information based on the values magnitude relative to a standard Gaussian distribution .  It bridge the gap between two worlds: the deterministic gating of ReLU and the probabilistic nature of the real world data .
+
 import torch
 import torch.nn as nn
 gelu = nn.GELU()
