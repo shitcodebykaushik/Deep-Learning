@@ -1,3 +1,4 @@
+# This is the for the image things .
 import torch 
 import torch.nn as nn
 # Kernal is the sliding window that does the actual workd. It is a small matrix of the number (weights) So when we define the kernal size as 2 then it means that (2*2) it multiply the its own internal weight by the pixel values it curenlt hovering it 

@@ -1,0 +1,9 @@
+# A cluster in machine learning means A group of similar things. It is a way to group data points together based on their similarities. Clustering is an unsupervised learning technique, which means that it does not require labeled data. The goal of clustering is to find natural groupings in the data, where data points within the same cluster are more similar to each other than to those in other clusters. Clustering can be used for various applications such as customer segmentation, image segmentation, and anomaly detection.
+# The commong algorithm in the clustring are :
+  # K-means => Divides the data into K clusters by minimizing the distance between data points and their assigned cluster centers. It decide the clusters from the distance to center point .
+  # DBSCAN => Density-Based Spatial Clustering of Applications with Noise. It groups together data points that are closely packed together, marking as outliers the points that lie alone in low-density regions. It decided the clusters by density of points .
+  # Hierarchical Clustering => Builds a hierarchy of clusters by either merging smaller clusters into larger ones (agglomerative) or splitting larger clusters into smaller ones (divisive). It decided the clusters by building a tree of clusters and cutting it at a certain level .
+  # Gaussian Mixture Models (GMM) => Assumes that the data is generated from a mixture of several Gaussian distributions and estimates the parameters of these distributions to assign data points to clusters. It decided the clusters by fitting a mixture of Gaussian distributions to the data . 
+  
+# By default pytorch doesnt have the clustring algorithm but we can use the scikit-learn library which is a popular machine learning library in Python that provides various clustering algorithms. We can use scikit-learn to perform clustering on our data and then convert the results into PyTorch tensors for further processing if needed.
+# 

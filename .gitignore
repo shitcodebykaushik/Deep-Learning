@@ -1,13 +1,20 @@
-# Python virtual environments
+# Virtual environments
 venv/
 venv311/
+env/
+.env/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# VS Code / IDE
+# IDE / Editors
 .vscode/
+.idea/
+*.swp
+*.swo
 
 # Jupyter
 .ipynb_checkpoints/
@@ -16,4 +23,34 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-.data 
+# Datasets and training data
+raw_data/
+clean_step1/
+clean_step2/
+clean_step3/
+python_train.txt
+python_train_tokens.npy
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+
+# Tokenizer output
+tokenizer.json
+
+# Logs and outputs
+*.log
+logs/
+wandb/
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+
+# Generated/csv logs
+*.csv
+
+# Stray downloaded files
+python_code_*.py
