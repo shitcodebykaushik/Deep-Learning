@@ -6,7 +6,7 @@ device = "cuda"
 # Use an underscore for readability, NOT a comma
 size = 30_000 
 
-# This will now correctly create two 40,000 x 40,000 matrices
+# This will now correctly create two 30,000 x 30,000 matrices
 print(f"Allocating matrices of size {size}x{size}...")
 
 x = torch.rand(size, size, device=device)
